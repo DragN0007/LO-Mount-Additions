@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="47,)"
+license="All Rights Reserved, DragN0007"
+#issueTrackerURL="https://discord.gg/2WznNTtVac"
+[[mods]]
+modId="dragnloequestrian"
+version="${1.0}"
+displayName="DragN's Livestock Overhaul: Mount Additions!"
+logoFile="mount_additions_logo.png"
+authors="DragN0007"
+description='''
+An addon to Livestock Overhaul enhancing horses & other mounts!
+'''
+[[dependencies.dragnloequestrian]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.dragnloequestrian]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.dragnloequestrian]]
+modId="geckolib"
+mandatory=true
+versionRange = "[4.4.4,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.dragnloequestrian]]
+modId="dragnlivestock"
+mandatory=true
+versionRange = "[4.0,)"
+ordering="NONE"
+side="BOTH"
+[[mixins]]
+config = "dragnloequestrian.mixins.json"

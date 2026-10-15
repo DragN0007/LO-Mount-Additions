@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dragn0007.dragnloequestrian.mixin",
+  "refmap": "mixins.dragnloequestrian.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
