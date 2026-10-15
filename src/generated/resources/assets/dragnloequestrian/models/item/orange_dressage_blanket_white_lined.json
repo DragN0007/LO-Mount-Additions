@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragnloequestrian:item/orange_dressage_blanket_white_lined"
+  }
+}

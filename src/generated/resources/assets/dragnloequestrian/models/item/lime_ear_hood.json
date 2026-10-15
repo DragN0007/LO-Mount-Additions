@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragnloequestrian:item/lime_ear_hood"
+  }
+}

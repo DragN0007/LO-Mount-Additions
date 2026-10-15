@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragnloequestrian:item/orange_quarter_sheet_white_lined"
+  }
+}
