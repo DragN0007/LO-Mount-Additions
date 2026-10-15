@@ -2,8 +2,10 @@ package com.dragn0007.dragnloequestrian.datagen;
 
 import com.dragn0007.dragnloequestrian.MountAdditions;
 import com.dragn0007.dragnloequestrian.items.MAItems;
+import com.dragn0007.dragnloequestrian.util.DefaultTackColors;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
@@ -19,6 +21,32 @@ public class MAItemModelProvider extends ItemModelProvider {
     @Override
     public void registerModels() {
         simpleItem(MAItems.MOUNT_ADDITIONS_LOGO);
+
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.BITLESS_BRIDLES.get(color));}
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.BLIND_BRIDLES.get(color));}
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.DOUBLE_REIN_BRIDLES.get(color));}
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.HEAVY_BRIDLES.get(color));}
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.LIGHT_BRIDLES.get(color));}
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.RACING_BRIDLES.get(color));}
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.SIMPLE_BRIDLES.get(color));}
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.WAR_BRIDLES.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.MEDIEVAL_BRIDLES.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.BLACK_MEDIEVAL_BRIDLES.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.WHITE_MEDIEVAL_BRIDLES.get(color));}
+
+        for (DefaultTackColors color : DefaultTackColors.values()) {simpleItem(MAItems.RACING_SADDLES.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.MEDIEVAL_SADDLES.get(color));}
+
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.PATTERNED_BLANKETS.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.BLACK_LINED_DRESSAGE_BLANKETS.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.WHITE_LINED_DRESSAGE_BLANKETS.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.BLACK_LINED_QUARTER_SHEETS.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.WHITE_LINED_QUARTER_SHEETS.get(color));}
+
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.EAR_HOODS.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.LINED_EAR_HOODS.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.LEG_WRAPS.get(color));}
+        for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.LINED_LEG_WRAPS.get(color));}
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {

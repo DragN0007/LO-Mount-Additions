@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "dragnloequestrian:racing_saddle", "required": false},
+    {"id": "dragnloequestrian:black_racing_saddle", "required": false},
+    {"id": "dragnloequestrian:white_racing_saddle", "required": false},
+    {"id": "dragnloequestrian:black_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:blue_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:brown_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:cyan_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:green_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:gray_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:light_blue_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:light_gray_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:lime_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:magenta_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:orange_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:pink_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:purple_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:red_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:white_medieval_saddle", "required": false},
+    {"id": "dragnloequestrian:yellow_medieval_saddle", "required": false}
+  ]
+}
