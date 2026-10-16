@@ -1,6 +1,9 @@
 package com.dragn0007.dragnloequestrian.datagen;
 
 import com.dragn0007.dragnloequestrian.MountAdditions;
+import com.dragn0007.dragnloequestrian.blocks.MABlocks;
+import com.dragn0007.dragnloequestrian.blocks.training.BaseJumpBlock;
+import com.dragn0007.dragnloequestrian.blocks.training.DoubleBarJumpBlock;
 import com.dragn0007.dragnloequestrian.items.MAItems;
 import com.dragn0007.dragnloequestrian.util.DefaultTackColors;
 import net.minecraft.data.PackOutput;
@@ -47,6 +50,9 @@ public class MAItemModelProvider extends ItemModelProvider {
         for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.LINED_EAR_HOODS.get(color));}
         for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.LEG_WRAPS.get(color));}
         for (DyeColor color : DyeColor.values()) {simpleItem(MAItems.LINED_LEG_WRAPS.get(color));}
+
+        for (DyeColor color : DyeColor.values()) {spriteJumpBlock(MABlocks.SINGLE_BAR_JUMPS.get(color));}
+        for (DyeColor color : DyeColor.values()) {spriteDoubleJumpBlock(MABlocks.DOUBLE_BAR_JUMPS.get(color));}
     }
 
     public ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -58,5 +64,15 @@ public class MAItemModelProvider extends ItemModelProvider {
         return withExistingParent(block.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(MountAdditions.MODID,"block/" + block.getId().getPath()));
+    }
+    private ItemModelBuilder spriteJumpBlock(RegistryObject<BaseJumpBlock> block) {
+        return withExistingParent(block.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(MountAdditions.MODID,"item/" + block.getId().getPath()));
+    }
+    private ItemModelBuilder spriteDoubleJumpBlock(RegistryObject<DoubleBarJumpBlock> block) {
+        return withExistingParent(block.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(MountAdditions.MODID,"item/" + block.getId().getPath()));
     }
 }

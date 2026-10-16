@@ -30,6 +30,7 @@ public class MATags {
     }
 
     public static class Blocks {
+        public static final TagKey<Block> JUMPS = tag("jumps");
 
         public static TagKey<Block> forgeTag (String name) {
             return BlockTags.create(new ResourceLocation("forge", name));

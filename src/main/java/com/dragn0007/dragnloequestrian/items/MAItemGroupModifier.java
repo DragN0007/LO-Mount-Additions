@@ -1,7 +1,7 @@
 package com.dragn0007.dragnloequestrian.items;
 
-import com.dragn0007.dragnlivestock.items.LOItems;
 import com.dragn0007.dragnloequestrian.MountAdditions;
+import com.dragn0007.dragnloequestrian.blocks.MABlocks;
 import com.dragn0007.dragnloequestrian.util.DefaultTackColors;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -44,6 +44,9 @@ public class MAItemGroupModifier {
                         for (DyeColor color : DyeColor.values()) {output.accept(MAItems.LINED_EAR_HOODS.get(color).get());}
                         for (DyeColor color : DyeColor.values()) {output.accept(MAItems.LEG_WRAPS.get(color).get());}
                         for (DyeColor color : DyeColor.values()) {output.accept(MAItems.LINED_LEG_WRAPS.get(color).get());}
+
+                        for (DyeColor color : DyeColor.values()) {output.accept(MABlocks.SINGLE_BAR_JUMPS.get(color).get());}
+                        for (DyeColor color : DyeColor.values()) {output.accept(MABlocks.DOUBLE_BAR_JUMPS.get(color).get());}
                     }).build());
 
     public static void register(IEventBus eventBus) {

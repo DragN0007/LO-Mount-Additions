@@ -2,14 +2,11 @@ package com.dragn0007.dragnloequestrian;
 
 import com.dragn0007.dragnloequestrian.blocks.MABlocks;
 import com.dragn0007.dragnloequestrian.common.gui.MAMenuTypes;
+import com.dragn0007.dragnloequestrian.effects.MAEffects;
 import com.dragn0007.dragnloequestrian.items.MAItemGroupModifier;
 import com.dragn0007.dragnloequestrian.items.MAItems;
 import com.dragn0007.dragnloequestrian.util.MountAdditionsClientConfig;
 import com.dragn0007.dragnloequestrian.util.MountAdditionsCommonConfig;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.network.syncher.EntityDataSerializer;
-import net.minecraft.network.syncher.EntityDataSerializers;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,6 +29,7 @@ public class MountAdditions
         MAItemGroupModifier.register(eventBus);
         MABlocks.register(eventBus);
         MAMenuTypes.register(eventBus);
+        MAEffects.register(eventBus);
 
         GeckoLib.initialize();
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, MountAdditionsClientConfig.SPEC, "livestock-overhaul-mounts-client.toml");

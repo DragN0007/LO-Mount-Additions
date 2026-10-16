@@ -1,0 +1,38 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "dragnloequestrian:black_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:blue_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:brown_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:cyan_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:green_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:gray_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:light_blue_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:light_gray_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:lime_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:magenta_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:orange_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:pink_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:purple_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:red_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:white_single_bar_jump", "required": false},
+    {"id": "dragnloequestrian:yellow_single_bar_jump", "required": false},
+
+    {"id": "dragnloequestrian:black_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:blue_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:brown_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:cyan_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:green_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:gray_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:light_blue_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:light_gray_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:lime_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:magenta_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:orange_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:pink_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:purple_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:red_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:white_double_bar_jump", "required": false},
+    {"id": "dragnloequestrian:yellow_double_bar_jump", "required": false}
+  ]
+}

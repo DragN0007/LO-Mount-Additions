@@ -1,0 +1,8 @@
+{
+  "parent": "dragnloequestrian:block/parent/single_jump_bar",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "dragnloequestrian:block/brown_jump_bars",
+    "texture": "dragnloequestrian:block/brown_jump_bars"
+  }
+}

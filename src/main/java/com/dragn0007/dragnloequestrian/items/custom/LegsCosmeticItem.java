@@ -12,6 +12,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class LegsCosmeticItem extends Item {
+    //Items that can go in the Legs slot. Purely cosmetic.
+
     public final DyeColor color;
 
     public LegsCosmeticItem(DyeColor dyeColor, Properties properties) {

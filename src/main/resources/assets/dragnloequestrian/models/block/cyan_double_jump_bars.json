@@ -1,0 +1,8 @@
+{
+  "parent": "dragnloequestrian:block/parent/double_jump_bars",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "dragnloequestrian:block/cyan_jump_bars",
+    "texture": "dragnloequestrian:block/cyan_jump_bars"
+  }
+}

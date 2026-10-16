@@ -12,6 +12,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class FaceCosmeticItem extends Item {
+    //Items that can go in the Ears slot. Purely cosmetic.
+
     public final DyeColor color;
 
     public FaceCosmeticItem(DyeColor dyeColor, Item.Properties properties) {

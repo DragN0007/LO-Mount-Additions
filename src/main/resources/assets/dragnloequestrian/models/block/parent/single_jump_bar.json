@@ -1,0 +1,24 @@
+{
+	"format_version": "1.9.0",
+	"credit": "DragN0007",
+	"textures": {
+		"0": "#texture",
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"name": "top bar",
+			"from": [7.5, 10, 0],
+			"to": [8.5, 11, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -3, 0]},
+			"faces": {
+				"north": {"uv": [4, 4, 5, 5], "texture": "#0"},
+				"east": {"uv": [0, 0, 9, 1], "texture": "#0"},
+				"west": {"uv": [0, 1, 9, 2], "texture": "#0"},
+				"up": {"uv": [0, 2, 1, 11], "texture": "#0"},
+				"down": {"uv": [1, 2, 2, 11], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

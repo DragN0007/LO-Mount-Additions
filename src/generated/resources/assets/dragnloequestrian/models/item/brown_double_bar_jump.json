@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragnloequestrian:item/brown_double_bar_jump"
+  }
+}

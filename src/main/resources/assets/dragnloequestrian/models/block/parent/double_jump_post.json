@@ -1,0 +1,38 @@
+{
+	"format_version": "1.9.0",
+	"credit": "DragN0007",
+	"textures": {
+		"0": "#texture",
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [13, 0, 7],
+			"to": [15, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#0"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"up": {"uv": [8, 0, 10, 2], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [8, 2, 10, 4], "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Center post",
+			"from": [1, 0, 7],
+			"to": [3, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#0"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"up": {"uv": [8, 0, 10, 2], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [8, 2, 10, 4], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

@@ -1,7 +1,6 @@
 package com.dragn0007.dragnloequestrian.items;
 
 import com.dragn0007.dragnlivestock.items.custom.BlanketItem;
-import com.dragn0007.dragnlivestock.items.custom.CosmeticsItem;
 import com.dragn0007.dragnloequestrian.MountAdditions;
 import com.dragn0007.dragnloequestrian.items.custom.BridleItem;
 import com.dragn0007.dragnloequestrian.items.custom.FaceCosmeticItem;
