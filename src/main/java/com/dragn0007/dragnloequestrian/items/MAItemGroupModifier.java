@@ -47,6 +47,7 @@ public class MAItemGroupModifier {
 
                         for (DyeColor color : DyeColor.values()) {output.accept(MABlocks.SINGLE_BAR_JUMPS.get(color).get());}
                         for (DyeColor color : DyeColor.values()) {output.accept(MABlocks.DOUBLE_BAR_JUMPS.get(color).get());}
+                        for (DyeColor color : DyeColor.values()) {output.accept(MABlocks.WIDE_BAR_JUMPS.get(color).get());}
                     }).build());
 
     public static void register(IEventBus eventBus) {

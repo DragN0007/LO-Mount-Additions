@@ -18,6 +18,7 @@ public class MABlockLoot extends BlockLootSubProvider {
     public void generate() {
         for (DyeColor color : DyeColor.values()) {dropSelf(MABlocks.SINGLE_BAR_JUMPS.get(color).get());}
         for (DyeColor color : DyeColor.values()) {dropSelf(MABlocks.DOUBLE_BAR_JUMPS.get(color).get());}
+        for (DyeColor color : DyeColor.values()) {dropSelf(MABlocks.WIDE_BAR_JUMPS.get(color).get());}
     }
 
     @Override

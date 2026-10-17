@@ -33,6 +33,23 @@
     {"id": "dragnloequestrian:purple_double_bar_jump", "required": false},
     {"id": "dragnloequestrian:red_double_bar_jump", "required": false},
     {"id": "dragnloequestrian:white_double_bar_jump", "required": false},
-    {"id": "dragnloequestrian:yellow_double_bar_jump", "required": false}
+    {"id": "dragnloequestrian:yellow_double_bar_jump", "required": false},
+
+    {"id": "dragnloequestrian:black_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:blue_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:brown_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:cyan_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:green_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:gray_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:light_blue_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:light_gray_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:lime_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:magenta_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:orange_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:pink_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:purple_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:red_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:white_wide_bar_jump", "required": false},
+    {"id": "dragnloequestrian:yellow_wide_bar_jump", "required": false}
   ]
 }

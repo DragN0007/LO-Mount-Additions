@@ -4,6 +4,7 @@ import com.dragn0007.dragnlivestock.items.LOItems;
 import com.dragn0007.dragnloequestrian.MountAdditions;
 import com.dragn0007.dragnloequestrian.blocks.training.BaseJumpBlock;
 import com.dragn0007.dragnloequestrian.blocks.training.DoubleBarJumpBlock;
+import com.dragn0007.dragnloequestrian.blocks.training.WideBarJumpBlock;
 import com.dragn0007.dragnloequestrian.items.MAItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
@@ -49,6 +50,18 @@ public class MABlocks {
                 () -> new BlockItem(block.get(), new Item.Properties()));
         DOUBLE_BAR_JUMPS.put(color, block);
         DOUBLE_BAR_JUMP_ITEMS.put(color, blockItem);}
+    }
+
+    public static final Map<DyeColor, RegistryObject<WideBarJumpBlock>> WIDE_BAR_JUMPS = new EnumMap<>(DyeColor.class);
+    public static final Map<DyeColor, RegistryObject<Item>> WIDE_BAR_JUMP_ITEMS = new EnumMap<>(DyeColor.class);
+    static {for (DyeColor color : DyeColor.values()) {
+        String blockName = color.getName() + "_wide_bar_jump";
+        RegistryObject<WideBarJumpBlock> block = BLOCKS.register(blockName,
+                () -> new WideBarJumpBlock(BlockBehaviour.Properties.copy(OAK_FENCE).strength(0.1F).noOcclusion()));
+        RegistryObject<Item> blockItem = MAItems.ITEMS.register(blockName,
+                () -> new BlockItem(block.get(), new Item.Properties()));
+        WIDE_BAR_JUMPS.put(color, block);
+        WIDE_BAR_JUMP_ITEMS.put(color, blockItem);}
     }
 
     public static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
