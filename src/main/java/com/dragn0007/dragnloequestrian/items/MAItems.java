@@ -22,7 +22,6 @@ public class MAItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MountAdditions.MODID);
     public static final Map<DyeColor, RegistryObject<Item>> DYED_ITEMS = new EnumMap<>(DyeColor.class);
 
-
     //BRIDLES
     public static final Map<DefaultTackColors, RegistryObject<Item>> BITLESS_BRIDLES  = new EnumMap<>(DefaultTackColors.class);
     static {for (DefaultTackColors color : DefaultTackColors.values()) {
