@@ -1,6 +1,7 @@
 package com.dragn0007.dragnloequestrian.datagen.biglooter;
 
 import com.dragn0007.dragnloequestrian.blocks.MABlocks;
+import com.dragn0007.dragnloequestrian.util.WoodColors;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.DyeColor;
@@ -19,6 +20,8 @@ public class MABlockLoot extends BlockLootSubProvider {
         for (DyeColor color : DyeColor.values()) {dropSelf(MABlocks.SINGLE_BAR_JUMPS.get(color).get());}
         for (DyeColor color : DyeColor.values()) {dropSelf(MABlocks.DOUBLE_BAR_JUMPS.get(color).get());}
         for (DyeColor color : DyeColor.values()) {dropSelf(MABlocks.WIDE_BAR_JUMPS.get(color).get());}
+        for (DyeColor color : DyeColor.values()) {dropSelf(MABlocks.DYED_TACK_TRUNK.get(color).get());}
+        for (WoodColors color : WoodColors.values()) {dropSelf(MABlocks.WOODEN_TACK_TRUNK.get(color).get());}
     }
 
     @Override

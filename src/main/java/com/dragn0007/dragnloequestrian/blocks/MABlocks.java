@@ -2,10 +2,12 @@ package com.dragn0007.dragnloequestrian.blocks;
 
 import com.dragn0007.dragnlivestock.items.LOItems;
 import com.dragn0007.dragnloequestrian.MountAdditions;
+import com.dragn0007.dragnloequestrian.blocks.decor.TackTrunkBlock;
 import com.dragn0007.dragnloequestrian.blocks.training.BaseJumpBlock;
 import com.dragn0007.dragnloequestrian.blocks.training.DoubleBarJumpBlock;
 import com.dragn0007.dragnloequestrian.blocks.training.WideBarJumpBlock;
 import com.dragn0007.dragnloequestrian.items.MAItems;
+import com.dragn0007.dragnloequestrian.util.WoodColors;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
@@ -27,6 +29,28 @@ import static net.minecraft.world.level.block.Blocks.OAK_FENCE;
 public class MABlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MountAdditions.MODID);
     public static final DeferredRegister<BlockEntityType<?>> TILE_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MountAdditions.MODID);
+
+    public static final Map<DyeColor, RegistryObject<TackTrunkBlock>> DYED_TACK_TRUNK = new EnumMap<>(DyeColor.class);
+    public static final Map<DyeColor, RegistryObject<Item>> DYED_TACK_TRUNK_ITEMS = new EnumMap<>(DyeColor.class);
+    static {for (DyeColor color : DyeColor.values()) {
+        String blockName = color.getName() + "_tack_trunk";
+        RegistryObject<TackTrunkBlock> block = BLOCKS.register(blockName, TackTrunkBlock::new);
+        RegistryObject<Item> blockItem = MAItems.ITEMS.register(blockName,
+                () -> new BlockItem(block.get(), new Item.Properties()));
+        DYED_TACK_TRUNK.put(color, block);
+        DYED_TACK_TRUNK_ITEMS.put(color, blockItem);}
+    }
+
+    public static final Map<WoodColors, RegistryObject<TackTrunkBlock>> WOODEN_TACK_TRUNK = new EnumMap<>(WoodColors.class);
+    public static final Map<WoodColors, RegistryObject<Item>> WOODEN_TACK_TRUNK_ITEMS = new EnumMap<>(WoodColors.class);
+    static {for (WoodColors color : WoodColors.values()) {
+        String blockName = color.getName() + "_tack_trunk";
+        RegistryObject<TackTrunkBlock> block = BLOCKS.register(blockName, TackTrunkBlock::new);
+        RegistryObject<Item> blockItem = MAItems.ITEMS.register(blockName,
+                () -> new BlockItem(block.get(), new Item.Properties()));
+        WOODEN_TACK_TRUNK.put(color, block);
+        WOODEN_TACK_TRUNK_ITEMS.put(color, blockItem);}
+    }
 
     public static final Map<DyeColor, RegistryObject<BaseJumpBlock>> SINGLE_BAR_JUMPS = new EnumMap<>(DyeColor.class);
     public static final Map<DyeColor, RegistryObject<Item>> SINGLE_BAR_JUMP_ITEMS = new EnumMap<>(DyeColor.class);

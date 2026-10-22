@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragnloequestrian:light_blue_tack_trunk"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dragnloequestrian:blocks/light_blue_tack_trunk"
+}

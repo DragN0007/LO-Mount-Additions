@@ -1,0 +1,8 @@
+{
+  "parent": "dragnloequestrian:block/parent/tack_trunk",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "dragnloequestrian:block/light_gray_tack_trunk",
+    "texture": "dragnloequestrian:block/light_gray_tack_trunk"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dragnloequestrian:block/lime_tack_trunk"
+    },
+    "facing=north": {
+      "model": "dragnloequestrian:block/lime_tack_trunk"
+    },
+    "facing=south": {
+      "model": "dragnloequestrian:block/lime_tack_trunk"
+    },
+    "facing=west": {
+      "model": "dragnloequestrian:block/lime_tack_trunk"
+    }
+  }
+}
